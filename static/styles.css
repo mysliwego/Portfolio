@@ -1,3 +1,6 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .nav-link {
     color: gray;
 }
@@ -49,4 +52,74 @@ footer p {
 footer {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
+}
+section {
+    min-height: 100vh;
+    padding: 8rem 12%;
+    width: 100%;
+    position: relative;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+.home img{
+    width: 400px;
+    border-radius: 50%;
+}
+.home-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.home-info h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    opacity: 0.9;
+}
+.home-info h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+span {
+    font-size: 1.5em;
+}
+.home-buttons {
+    display: flex;
+    gap: 1em;
+}
+.button {
+    border-radius: 3rem;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: 400;
+    text-wrap: nowrap;
+
+}
+.button:hover {
+    background-color: black;
+    color: white;
+}
+.socials {
+    display: flex;
+    gap: 2rem;
+
+}
+.socials i {
+    font-size: 2em;
+    cursor: pointer;
+}
+.socials i:hover {
+    transform: scale(1.1);
 }
