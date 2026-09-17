@@ -1,0 +1,44 @@
+.nav-link {
+    color: gray;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link.active {
+    color: white;
+    font-weight: normal !important;
+}
+.navbar-brand {
+    font-weight: bold;
+    margin-right: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 1.5;
+}
+.github-link {
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+}
+@media (max-width: 767.98px) {
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-collapse .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .github-link {
+        margin-top: 25px;
+        margin-left: 0;
+    }
+}
