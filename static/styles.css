@@ -46,6 +46,9 @@
         margin-top: 25px;
         margin-left: 0;
     }
+    .home-container {
+        flex-direction: column;
+    }
 }
 @media (min-width: 768px) and (max-width: 850px) {
     .navbar-expand-md .navbar-toggler {
@@ -58,6 +61,11 @@
 
     .navbar-expand-md .navbar-collapse.show {
         display: flex !important;
+    }
+}
+@media (max-width: 1280px) {
+    .home .home-container {
+        gap: 3rem;
     }
 }
 footer p {
@@ -83,7 +91,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    gap: 7rem;
 }
 .home img{
     width: 400px;
@@ -129,7 +137,7 @@ span {
 .socials {
     display: flex;
     gap: 2rem;
-
+    transform: translateY(-35px);
 }
 .socials i {
     font-size: 2em;
@@ -144,4 +152,5 @@ span {
     align-items: center;
     justify-content: center;
     gap: 9.5rem;
+    transform: translateY(-15px);
 }
