@@ -159,3 +159,35 @@ span {
     gap: 9.5rem;
     transform: translateY(-15px);
 }
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+}
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    align-items: start;
+}
+.about-summary,
+.about-interests,
+.about-journey {
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.about-side {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.about > h1 {
+    text-align: center;
+    align-self: center;
+    padding-bottom: 2rem;
+}
