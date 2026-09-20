@@ -144,6 +144,10 @@ span {
     font-size: 2em;
     cursor: pointer;
 }
+.socials a {
+    color: inherit;
+    text-decoration: none;
+}
 .socials i:hover {
     transform: scale(1.1);
 }
