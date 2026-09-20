@@ -191,3 +191,8 @@ span {
     align-self: center;
     padding-bottom: 2rem;
 }
+@media (max-width: 850px) {
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+}
