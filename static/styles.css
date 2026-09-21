@@ -11,6 +11,15 @@
     color: white;
     font-weight: normal !important;
 }
+.nav-underline .nav-link {
+    border-bottom: none !important;
+}
+.nav-underline .nav-link:hover {
+    border-bottom: none !important;
+}
+.nav-underline .nav-link.active {
+    border-bottom: 2px solid currentColor !important;
+}
 .navbar-brand {
     font-weight: bold;
     margin-right: 50px;
