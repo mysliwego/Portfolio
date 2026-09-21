@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}Contact{% endblock %}
+
+{% block content %}
+    <section class="contact">
+        <div class="contact-container">
+            <form action="" class="contact-form">
+                <div class="title">
+                    <h1 class="title">Contact me</h1>
+                </div>
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button class="button" type="submit">Send</button>
+                <div class="socials">
+                    <a href="https://github.com/mysliwego" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/j-mysliwiec/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </section>
+{% endblock %}
