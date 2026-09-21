@@ -5,7 +5,7 @@
 {% block content %}
     <section class="contact">
         <div class="contact-container">
-            <form action="https://formspree.io/f/mwlpovqj" method="POST" class="contact-form">
+            <form id="contact-form" action="https://formspree.io/f/mwlpovqj" method="POST" class="contact-form">
                 <div class="title">
                     <h1 class="title">Contact me</h1>
                 </div>
@@ -24,4 +24,23 @@
             </form>
         </div>
     </section>
+
+    <script>
+        window.formspree =
+            window.formspree ||
+            function () {
+                (formspree.q = formspree.q || []).push(arguments);
+            };
+
+        formspree("initForm", {
+            formElement: "#contact-form",
+            formId: "mwlpovqj",
+
+            onSuccess: () => {
+                window.location.href = "{{ url_for('contact') }}";
+            }
+        });
+    </script>
+
+    <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 {% endblock %}
