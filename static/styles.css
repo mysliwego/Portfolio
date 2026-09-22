@@ -343,3 +343,33 @@ span {
 .contact .socials {
     transform: none;
 }
+.education-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.education-card {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+}
+.education {
+    padding-top: 2rem;
+}
+.education .title {
+    text-align: center;
+    align-self: center;
+    padding-bottom: 1rem;
+}
+@media (max-width: 850px) {
+    .education-container{
+        grid-template-columns: 1fr;
+    }
+}
