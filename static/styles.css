@@ -304,9 +304,6 @@ span {
     align-self: center;
     padding-bottom: 1rem;
 }
-.contact .socials {
-    padding-top: 3rem;
-}
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -342,4 +339,7 @@ span {
 }
 .skills #font-size {
     transform: scale(2);
+}
+.contact .socials {
+    transform: none;
 }
