@@ -12,6 +12,7 @@
                 <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
                 <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
                 <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <div data-fs-success>Message sent successfully!</div>
                 <button class="button" type="submit">Send</button>
                 <div class="socials">
                     <a href="https://github.com/mysliwego" target="_blank">
@@ -36,9 +37,6 @@
             formElement: "#contact-form",
             formId: "mwlpovqj",
 
-            onSuccess: () => {
-                window.location.href = "{{ url_for('contact') }}";
-            }
         });
     </script>
 
