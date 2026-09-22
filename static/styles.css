@@ -347,7 +347,11 @@ span {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 2rem;
+}
+.school-card {
+    grid-row: 1 / 3;
 }
 .education-card {
     padding: 2rem 2rem;
@@ -372,4 +376,16 @@ span {
     .education-container{
         grid-template-columns: 1fr;
     }
+}
+#Lo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.course p{
+    margin: 0;
+}
+.certificate p{
+    margin: 0;
+}
+.description p{
+    margin: 5px;
 }
