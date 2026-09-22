@@ -332,3 +332,14 @@ span {
 .skills {
     padding-top: 2rem;
 }
+@media (max-width: 850px) {
+    .skills-container{
+        grid-template-columns: 1fr;
+    }
+}
+.skills i {
+    transform: scale(1.5);
+}
+.skills #font-size {
+    transform: scale(2);
+}
