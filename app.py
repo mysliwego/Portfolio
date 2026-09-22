@@ -1,3 +1,6 @@
+# AI tools, including ChatGPT, were used as a development aid
+# for explanations, debugging, and guidance during development.
+
 from flask import Flask, render_template
 
 app = Flask(__name__)
