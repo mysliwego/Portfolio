@@ -22,5 +22,9 @@ def projects():
 def contact():
     return render_template("contact.html")
 
+@app.route("/education")
+def education():
+    return render_template("education.html")
+
 if __name__ == "__main__":
     app.run(debug=1)

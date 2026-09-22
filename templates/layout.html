@@ -32,7 +32,7 @@
                 <a class="nav-link {% if request.endpoint == 'projects' %}active{% endif %}" href="{{ url_for('projects') }}">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
+                <a class="nav-link {% if request.endpoint == 'education' %}active{% endif %}" href="{{ url_for('education') }}">Education</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link {% if request.endpoint == 'contact' %}active{% endif %}" href="{{ url_for('contact') }}">Contact</a>
