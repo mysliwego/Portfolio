@@ -400,3 +400,9 @@ span {
 .projects a {
     text-decoration: none;
 }
+@media (max-width: 600px) {
+    .projects-button .button {
+        padding: 0.4rem 1rem;
+        font-size: 0.9rem;
+    }
+}
