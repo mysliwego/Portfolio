@@ -397,3 +397,6 @@ span {
 .contact [data-fs-success][data-fs-active] {
     margin-bottom: -5px;
 }
+.projects a {
+    text-decoration: none;
+}
